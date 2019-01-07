@@ -16,6 +16,9 @@ const app = express();
 
 // If you need a backend, e.g. an API, add your custom backend-specific middleware here
 // app.use('/api', myApi);
+// const proxy = require('http-proxy-middleware');
+// const apiProxy = proxy('/', { target: 'http://localhost:3001' });
+// app.use('/', apiProxy);
 
 // In production we need to pass these values in instead of relying on webpack
 setup(app, {

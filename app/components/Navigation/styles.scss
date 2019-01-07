@@ -1,0 +1,24 @@
+ul {
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    height: 60px;
+
+    li {
+        padding: 0 1rem;
+        line-height: 60px;
+
+        a, button {
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: capitalize;
+            text-decoration: none;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        &:hover {
+            background-color: #3f3f3f;
+        }
+    }
+}
